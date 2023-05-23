@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Cabecalho from "Components/header/header";
 
 function App() {
   return (
-    
-  );
+    <Cabecalho/>
+  )
 }
 
-export default App;
+export default App
